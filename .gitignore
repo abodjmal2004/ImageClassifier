@@ -1,0 +1,15 @@
+# Ignore dataset folder
+dataset/
+
+# Ignore saved model files (can be too large for GitHub)
+*.pkl
+
+# Ignore python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore generated images (optional, remove if you want to upload them)
+# images/
