@@ -1,15 +1,24 @@
-# Ignore dataset folder
-dataset/
-
-# Ignore saved model files (can be too large for GitHub)
-*.pkl
-
-# Ignore python cache files
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
 
-# Ignore Jupyter Notebook checkpoints
+# Jupyter
 .ipynb_checkpoints/
 
-# Ignore generated images (optional, remove if you want to upload them)
-# images/
+# Local data and trained artifacts
+dataset/
+artifacts/
+*.pkl
+*.joblib
+
+# Generated evaluation outputs
+results/*.png
+results/metrics.json
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
